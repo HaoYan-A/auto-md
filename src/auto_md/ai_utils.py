@@ -136,7 +136,7 @@ def create_ai_client():
     return ChatOpenAI(
         model="gpt-4.1-mini",
         base_url="https://aihubmix.com/v1",
-        api_key="sk-WukkvRTb68Al3Ap46618E82305734043AfAf7aDc14A184Cc"
+        api_key="sk-xxxxxx"
     )
 
 def generate_task_document(issue_key, summary, description, status, assignee, parent_info="", chat_history=None):
